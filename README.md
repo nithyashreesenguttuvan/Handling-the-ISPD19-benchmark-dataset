@@ -39,9 +39,11 @@ ispd19_project/
 
 │   ├── feature_extraction.py
 
-│   ├── machine_learning.py
+│   ├── model_training.py
 
 │   └── main.py
+
+│   ├── example_usage.py
 
 │
 
