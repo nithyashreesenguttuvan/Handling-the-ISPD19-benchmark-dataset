@@ -61,7 +61,11 @@ This project handles the ISPD19 benchmark dataset, including LEF, DEF, and Guide
 - `src/`: Source code directory.
   - `preprocess.py`: Contains functions to parse LEF, DEF, and Guide files.
   - `visualization.py`: Contains functions for visualizing the graph.
-  - `main.py`: Main script to run the preprocessing and visualization.
+  - `graph_analysis.py`: Contains functions for graphical analysis
+  - `feature_extraction`: Contains functions to extract features from the graph
+  - `model_training.py`: Contains functions to train the model for Random Classifier
+  - `example_usage.py`: Contains codewrok on example usage of extracting the data and converting it to a graph
+  - `main.py`: Main script to run the entire code and obtain results about the graph data.
 - `requirements.txt`: Python dependencies.
 - `README.md`: Project documentation.
 
