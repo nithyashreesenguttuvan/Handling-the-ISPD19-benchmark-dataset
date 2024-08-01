@@ -6,7 +6,15 @@ ispd19_project/
 
 │
 
-├── data/
+├── data/instance1
+
+│   ├── ispd19_sample.input.lef
+
+│   ├── ispd19_sample.input.def
+
+│   └── ispd19_sample.input.guide
+
+├── data/instance2
 
 │   ├── ispd19_sample.input.lef
 
@@ -15,6 +23,9 @@ ispd19_project/
 │   └── ispd19_sample.input.guide
 
 │
+.
+.
+.
 
 ├── src/
 
@@ -23,6 +34,12 @@ ispd19_project/
 │   ├── preprocess.py
 
 │   ├── visualization.py
+
+│   ├── graph_analysis.py
+
+│   ├── feature_extraction.py
+
+│   ├── machine_learning.py
 
 │   └── main.py
 
